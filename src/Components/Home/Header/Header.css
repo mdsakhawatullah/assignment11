@@ -1,0 +1,9 @@
+.header-container {
+    
+    height: 685px  !important;
+    background-image: linear-gradient(
+      176deg,
+      #6cd4a9 80%,
+      #ffffff calc(70% + 1px)
+    )  !important;
+  }

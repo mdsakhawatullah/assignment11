@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-brand {
+  width: 134px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #111430;
+  border-style: none;
+}
+
+body {
+  overflow-x: hidden;
+}
