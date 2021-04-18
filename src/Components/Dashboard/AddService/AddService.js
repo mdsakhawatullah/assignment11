@@ -2,28 +2,6 @@ import React, { useState } from 'react';
 
 import Sidebar from '../Sidebar/Sidebar';
 
-
-    
-    // const handleAddServices=()=>{
-    //   fetch('http://localhost:3000/addServices',{
-    //       method:'POST',
-    //       headers:{
-    //           'Content-Type':'application/json'
-    //       },
-    //       body:JSON.stringify(serviceData)
-    //   })
-    // }
-
-    // const handleAddReviews=()=>{
-    //     fetch('http://localhost:3000/addReviews',{
-    //         method:'POST',
-    //         headers:{
-    //             'Content-Type':'application/json'
-    //         },
-    //         body:JSON.stringify(reviewData)
-    //     })
-    //   }
-
     const AddService = () => {
         const [info, setInfo] = useState({});
         const [file, setFile] = useState(null);
